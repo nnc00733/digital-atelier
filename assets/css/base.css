@@ -1,0 +1,9 @@
+:root{
+    --bg:0e0f12;--fg:#e8e9ec;--muted:#9aa0a6
+    --brand:#6b7cff;--accent:#a36bff;
+    --space-1:.25rem;--space-2:.5rem;--space-3:1rem;--space-4:1.5rem;--space-5:2rem;--radius:14px;
+    --maxw:1200px;__font:ui-sans-serif,system-ui,Seogoe UI,Roboto,Inter,Arial;
+}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--fg);font-family:var(--font);line-height:1.6}
+.container{max-width:var(--maxw);margin:0 auto;padding:0 var(--space-3)}
